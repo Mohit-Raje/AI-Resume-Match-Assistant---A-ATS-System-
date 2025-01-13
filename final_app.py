@@ -8,7 +8,7 @@ import base64
 import PyPDF2  as pdf
 
 st.set_page_config(page_title="AI Resume Match Assistant" , page_icon="🔍")
-st.header("AI Resume Match Assistant - A ATS System")
+st.header("AI Resume Match Assistant - ATS System")
 
 st.sidebar.title("Enter the Google API Key")
 api_key=st.sidebar.text_input(label="Enter the API Key" , type="password")
